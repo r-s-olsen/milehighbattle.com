@@ -435,7 +435,7 @@ color: var(--surface-canvas-light);
 
 .w-lightbox-active {
     opacity: 1;
-    box-shadow: 0 0 0 0.125rem var(--highlight-light);
+    box-shadow: 0 0 0 0.125rem var(--interactive-default-light);
 }
 
 .w-lightbox-thumbnail {
@@ -742,7 +742,7 @@ figcaption {
     }
 
     .w-lightbox-active {
-        box-shadow: 0 0 0 0.125rem var(--highlight-dark);
+        box-shadow: 0 0 0 0.125rem var(--interactive-default-dark);
     }
 
     /* surface-info */
