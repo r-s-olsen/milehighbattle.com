@@ -231,7 +231,7 @@ a.link-external:after {
     border-color: var(--interactive-default-light);
     border-style: solid;
     border-width: var(--_measurement---stroke--base);
-    transition: all .150s;
+    transition: all 0s;
 }
 
 .w-slider-dot::before {
@@ -242,7 +242,7 @@ a.link-external:after {
     right: var(--_measurement---stroke--base);
     bottom: var(--_measurement---stroke--base);
     left: var(--_measurement---stroke--base);
-    transition: all .150s;
+    transition: all 0s;
 }
 
 .w-slider-dot:hover::before,
@@ -362,7 +362,7 @@ a.link-external:after {
     background-color: var(--surface-canvas-light);
     border: 0.125rem solid var(--interactive-default-light);
     padding: 0.375rem;
-    transition: all .15s;
+    transition: all 0s;
 }
 
 .w-lightbox-control:hover::before,
@@ -430,7 +430,7 @@ color: var(--surface-canvas-light);
     max-height: 100%;
     padding: 0 !important;
     overflow: hidden;
-    transition: all .3s;
+    transition: all 0s;
 }
 
 .w-lightbox-active {
