@@ -126,8 +126,6 @@ a.link-external:after {
     height: .75rem;
     background-color: var(--text-light);
     margin-left: 0.25rem;
-    position: relative;
-    top: 0.125rem;
 }
 
 a.link-external:hover:after {
@@ -627,7 +625,8 @@ figcaption {
     .w-slider-dot.w-active::before,
     .w-slider-dot.w-active:hover::before,
     .w-slider-dot.w-active:focus::before,
-    .w-slider-dot.w-active:active::before {
+    .w-slider-dot.w-active:active::before,
+    a.link-external:after {
         background-color: var(--text-dark);
     }
 
